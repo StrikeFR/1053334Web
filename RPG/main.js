@@ -20,7 +20,7 @@ $(document).ready(function () {
     imgMountain = new Image();
     imgMountain.src = "RPG/images/material.png";
     imgEnemy = new Image();
-    imgEnemy.src = "P4.PNG";
+    imgEnemy.src = "RPG/images/material.png";
     imgMountain.onload = function () {
         imgEnemy.onload = function () {
             for (let x in mapArray) {
